@@ -9,6 +9,14 @@ const Navbar =(props)=> {
     <li><a href="#">Posts</a></li>
     <li><a href="#">Contct Us</a></li>
 </ul>
+<div className="search">
+    <form>
+    <input type="text" className="searchinput" placeholder="Search"/>
+     <img src={require('../../assets/icons/search.png')} alt="Search"/>
+    
+    </form>
+    
+</div>
         </div>
     )
 }
