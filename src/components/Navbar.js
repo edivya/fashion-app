@@ -26,10 +26,6 @@ export default class Navbar extends Component {
             </Link>
           </li>
           
-
-         
-
-          
         </ul>
         
         <Link to="/cart" className="ml-auto">
